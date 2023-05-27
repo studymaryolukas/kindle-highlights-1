@@ -19,7 +19,7 @@ jobs:
 
       - name: Commit cache changes
         uses: EndBug/add-and-commit@v7
-        with:
+        with: node16
           message: Commit cache changes
           add: sync.json
 
